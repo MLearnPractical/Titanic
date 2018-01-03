@@ -1,2 +1,0 @@
-NewVar = 7
-print(NewVar + 7)
