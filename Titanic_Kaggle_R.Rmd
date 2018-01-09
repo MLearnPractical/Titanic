@@ -8,10 +8,17 @@ output: html_document
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo=TRUE)
 
-training <- read.csv("https://www.kaggle.com/c/titanic/download/train.csv",header = TRUE)
-testing <- read.csv("https://www.kaggle.com/c/titanic/download/test.csv",header = TRUE)
+library(caret)
+training <- read.csv("train.csv",header = TRUE)
+testing <- read.csv("test.csv",header = TRUE)
+
+
+training$
+tree <- train(Survived ~ .,data = training, method = "rf")
+?train
 ```
 
 ```{r}
-View(training)
+nrow(training)
+nrow(testing)
 ```
