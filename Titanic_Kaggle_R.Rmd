@@ -12,4 +12,6 @@ training <- read.csv("https://www.kaggle.com/c/titanic/download/train.csv",heade
 testing <- read.csv("https://www.kaggle.com/c/titanic/download/test.csv",header = TRUE)
 ```
 
-
+```{r}
+View(training)
+```
