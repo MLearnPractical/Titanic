@@ -7,6 +7,9 @@ output: html_document
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo=TRUE)
+
+training <- read.csv("https://www.kaggle.com/c/titanic/download/train.csv",header = TRUE)
+testing <- read.csv("https://www.kaggle.com/c/titanic/download/test.csv",header = TRUE)
 ```
 
 
